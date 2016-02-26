@@ -33,7 +33,6 @@ professionals work.
 
 ##### Projects
 ===
-
 ##### PROJECT 1: Build a Personal website
 You will develop a website that will display images, descriptions and links. In
 this project we will focus on learning html and css, and handling the graphical
