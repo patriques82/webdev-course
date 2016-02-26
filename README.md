@@ -31,8 +31,8 @@ and help you proceed learning more on your own. At the end of the course we will
 hopefully make a visit to a company working with web development to see how
 professionals work.
 
-##### Projects
 ===
+
 ##### PROJECT 1: Build a Personal website
 You will develop a website that will display images, descriptions and links. In
 this project we will focus on learning html and css, and handling the graphical
