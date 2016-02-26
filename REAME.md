@@ -62,4 +62,18 @@ projects under supervision. Apart from classes and exercise sessions we expect
 the students to work with the projects approximately 8 hours a week outside of
 the classroom.
 
-![course plan](https://github.com/patriques82/webdev-course/plan.png "Logo Title Text 1")
+### Course plan
+| Week | Monday (Theory) 18:00-21:00 | Thursday (Excercise) 18:00-21:00 | Topic |
+|------|---------------------------|--------------------------------|-------|
+| 1    |7/3: Patrik | 10/3: Patrik | HTML, CSS |
+| 2    |14/3: Patrik | 17/3: Patrik | HTML, CSS |
+| 3    |21/3: Patrik | 24/3: Patrik | HTML5, CSS3 |
+| 4    |28/3: Deepak | 31/3: Deepak | Intro to programming + JavaScript Basics |
+| 5    |4/4: Deepak | 7/4: Deepak | JavaScript Basics + HTML and CSS manipulation |
+| 6    |11/4: Eugene | 18/4: Deepak | JQuery |
+| 7    |18/4: Eugene | 21/4: Eugene | HTML5 + Game programming |
+| 8    |25/4: Eugene | 28/4: Eugene | HTML5 + Game programming |
+| 9    |2/5: Patrik | 5/5: Patrik | Meteor |
+| 10   |9/5: Patrik | 12/5: Patrik | Meteor |
+
+
