@@ -26,7 +26,7 @@ and help you proceed learning more on your own. At the end of the course we will
 hopefully make a visit to a company working with web development to see how
 professionals work.
 
-Projects
+### Projects
 ===
 
 ##### PROJECT 1: Build a Personal website
@@ -62,4 +62,4 @@ projects under supervision. Apart from classes and exercise sessions we expect
 the students to work with the projects approximately 8 hours a week outside of
 the classroom.
 
-![courseplan](https://github.com/patriques82/webdev-course/plan.png "Logo Title Text 1")
+![course plan](https://github.com/patriques82/webdev-course/plan.png "Logo Title Text 1")
