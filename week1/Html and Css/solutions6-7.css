@@ -1,0 +1,25 @@
+/* Exercise 6 */
+img {
+  width: 104;
+  height: 104;
+}
+
+div {
+  background-color: grey;
+  color: white;
+  width: 800px;
+}
+
+
+/* Exercise 7 */
+#the-div-element {
+  background-color: grey;
+  color: white;
+  width: 800px;
+}
+
+.all-headings  {
+  background-color: grey;
+  color: white;
+  width: 800px;
+}
