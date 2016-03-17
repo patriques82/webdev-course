@@ -1,0 +1,26 @@
+.heading-container {
+  height: 60px;
+
+}
+
+#top-menu {
+  float: left;
+  list-style-type: none;
+}
+
+.menu-item {
+  float: left;
+  margin: 0px 10px;
+  color: grey;
+}
+
+.text-wrapper {
+  height: 200px;
+  width: 200px;
+  margin: 0px 20px;
+  float: left;
+}
+
+#content {
+  height: 600px;
+}
