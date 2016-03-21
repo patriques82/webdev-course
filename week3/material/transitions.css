@@ -1,0 +1,47 @@
+/* Box shadow */
+
+#link {
+    background: #F38514;
+    padding: 15px;
+    color: #FFEB00;
+    text-decoration: none;
+    box-shadow: 5px 5px 2px #999; /* CSS3 */
+    /* h-shadow v-shadow blur spread color */
+}
+
+#link:hover {
+    background: #D2700C;
+    cursor: pointer;
+}
+
+/* Transitions */
+
+.simple {
+    margin-top: 40px;
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 5s; 
+}
+
+.simple:hover {
+    width: 300px;
+    background: purple;
+}
+
+.advanced {
+    border-style: solid;
+    border-width: 1px;
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: #0000FF;
+    transition: width 2s, height 3s, background-color 4s;
+}
+
+.advanced:hover {
+    background-color: #FFCCCC;
+    width: 200px;
+    height: 200px;
+    transform: rotate(180deg);
+}

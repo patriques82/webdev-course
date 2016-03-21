@@ -1,0 +1,20 @@
+.wrapper {
+    min-width: 100px; /* CSS2 */
+    min-height: 200px /* CSS2 */
+}
+
+.floating-box-old {
+    float: left; /* the old way */
+    width: 150px;
+    height: 75px;
+    margin: 10px;
+    border: 3px solid grey;
+}
+
+.floating-box-new {
+    display: inline-block; /* show "block" and "none" */
+    width: 150px;
+    height: 75px;
+    margin: 10px;
+    border: 3px solid #F3A003;
+}

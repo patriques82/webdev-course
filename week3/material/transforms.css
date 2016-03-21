@@ -1,0 +1,35 @@
+div#rotate {
+    height: 100px;
+    width: 300px;
+    background-color: yellow;
+    transform: rotate(20deg);
+}
+
+div#translateX {
+    height: 100px;
+    width: 300px;
+    background-color: red;
+    transform: translateX(10px);
+}
+
+div#translateY {
+    height: 100px;
+    width: 300px;
+    background-color: blue;
+    transform: translateY(10px);
+}
+
+div#translate {
+    height: 100px;
+    width: 300px;
+    background-color: orange;
+    transform: translate(20px, 10px);
+}
+
+div#scale {
+    height: 100px;
+    width: 300px;
+    background-color: green;
+    transform: scale(1.5, 2);
+}
+
