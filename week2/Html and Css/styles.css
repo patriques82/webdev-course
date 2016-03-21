@@ -1,31 +1,35 @@
 .container {
-    position: relative;
     height: 800px;
     background-color: #FF6666;
+    top: 0px;
+    position: absolute;
+}
+
+.link {
+    position: absolute;
+    bottom: -100px;
+    margin: auto;
+    height: 120px;
+    width: 120px;
+    border: 1px solid black;
 }
 
 img {
     width: 50px;
     height: 50px;
-    position: fixed; // positioned fixed in window, no matter scrolling
+    position: fixed;
     top: 0px;
     right: 0px;
 }
 
 .something {
-    position: relative; // is positioned relative to its normal position
+    position: relative;
     top: 20px;
     left: 30px;
 }
 
-.link {
-    position: absolute; // positioned relative to nearest ancestor
-    bottom: 0px;
-    height: 30px;
-    border: 1px solid black;
-}
 
 #whatever {
-    position: static; // not affected by the top, bottom, left, and right properties
+    position: static; 
 }
 
