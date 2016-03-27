@@ -69,14 +69,14 @@ the classroom.
 ### Course plan
 | Week | Monday (Theory) 18:00-21:00 | Thursday (Excercise) 18:00-21:00 | Topic |
 |------|---------------------------|--------------------------------|-------|
-| 1    |7/3: Patrik (l) | 10/3: Patrik (ex) | HTML, CSS |
-| 2    |14/3: Patrik (l) | 17/3: Patrik (ex) | HTML, CSS |
-| 3    |21/3: Patrik (l) | 24/3: Patrik (ex) | HTML5, CSS3 |
-| 4    |*28/3: ---* | 31/3: Deepak (l) | Intro to programming + JavaScript Basics |
-| 5    |4/4: Deepak (ex) | 7/4: Eugene (l) | JavaScript Basics + HTML and CSS manipulation |
-| 6    |11/4: Eugene (ex) | 18/4: Deepak (l) | JQuery |
-| 7    |18/4: Eugene (ex) | 21/4: Eugene (l) | HTML5 + Game programming |
-| 8    |25/4: Eugene (ex) | 28/4: Eugene (l) | HTML5 + Game programming |
+| 1    |7/3: Patrik (lec) | 10/3: Patrik (ex) | HTML, CSS |
+| 2    |14/3: Patrik (lec) | 17/3: Patrik (ex) | HTML, CSS |
+| 3    |21/3: Patrik (lec) | 24/3: Patrik (ex) | HTML5, CSS3 |
+| 4    |*28/3: ---* | 31/3: Deepak (lec) | Intro to programming + JavaScript Basics |
+| 5    |4/4: Deepak (ex) | 7/4: Eugene (lec) | JavaScript Basics + HTML and CSS manipulation |
+| 6    |11/4: Eugene (ex) | 18/4: Deepak (lec) | JQuery |
+| 7    |18/4: Eugene (ex) | 21/4: Eugene (lec) | HTML5 + Game programming |
+| 8    |25/4: Eugene (ex) | 28/4: Eugene (lec) | HTML5 + Game programming |
 | 9    |2/5: Patrik (ex) | *5/5: ---* | Game programming |
-| 10   |9/5: Rachele (l) | 12/5: Rachele (ex) | Meteor |
-| 11   |16/5: Rachele (l) | 19/5: Rachele (ex) | Meteor |
+| 10   |9/5: Rachele (lec) | 12/5: Rachele (ex) | Meteor |
+| 11   |16/5: Rachele (lec) | 19/5: Rachele (ex) | Meteor |
