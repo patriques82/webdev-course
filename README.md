@@ -67,7 +67,7 @@ the students to work with the projects approximately 8 hours a week outside of
 the classroom.
 
 ### Course plan
-| Week | Monday (Theory) 18:00-21:00 | Thursday (Excercise) 18:00-21:00 | Topic |
+| Week | Monday 18:00-21:00 | Thursday 18:00-21:00 | Topic |
 |------|---------------------------|--------------------------------|-------|
 | 1    |7/3: Patrik (lec) | 10/3: Patrik (ex) | HTML, CSS |
 | 2    |14/3: Patrik (lec) | 17/3: Patrik (ex) | HTML, CSS |
