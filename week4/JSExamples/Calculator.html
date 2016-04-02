@@ -1,0 +1,200 @@
+<html>
+<head>
+<style type="text/css">
+
+body
+{
+background-color:black;
+color:white;
+}
+
+#logo
+{
+margin-left:100px;
+float:left;
+width:50px;
+height:50px;
+}
+
+#sitename
+{
+margin-left:250px;
+margin-top:20px;
+}
+
+#sepe1
+{
+margin-top:80px;
+}
+#sepe2
+{
+positon:relative;
+margin-left:200px;
+}
+
+#calculator
+{
+positon:relative;
+margin-left:230px;
+display:none;
+
+}
+
+#result
+{
+positon:relative;
+margin-left:230px;
+
+
+}
+
+a:link,a:visited
+{
+display:block;
+font-weight:bold;
+color:#FFFFFF;
+background-color:#98bf21;
+width:120px;
+text-align:center;
+padding:4px;
+text-decoration:none;
+}
+a:hover,a:active
+{
+background-color:#7A991A;
+}
+
+
+
+#quicklinks
+{
+
+margin-top:-400px;
+margin-left:15px;
+}
+p
+{
+color:white;
+}
+
+#notes
+{
+margin-left:230px;
+margin-top:-200px;
+}
+
+#nlinks
+{
+margin-left:700px;
+}
+
+</style>
+
+<script type="text/JavaScript">
+
+
+function operation(parameter)
+{
+
+var a=document.getElementById("no1").value;
+var b=document.getElementById("no2").value;
+var c;
+if(parameter==1)
+{ 
+c=Number(a)+Number(b);
+}
+if(parameter==2)
+{ 
+c=a-b;
+}
+
+if(parameter==3)
+{ 
+c=a*b;
+}
+
+if(parameter==4)
+{ 
+c=a/b;
+}
+var table="";
+if(parameter==5)
+{
+for(var i=1;i<=10;i++)
+{
+c=a*i;
+table=table+a.toString()+"*"+i.toString()+"="+c.toString()+"<br>";
+}
+
+}
+if(parameter!=5){
+//alert(c);
+document.getElementById("result").innerHTML=c;
+}
+else
+document.getElementById("result").innerHTML=table;
+
+// Can be done using switch case. teach them that also
+
+}
+
+</script>
+
+
+</head>
+
+<body>
+<div id="logo">
+<img src="logo.png"/>
+</div>
+
+<div id ="sitename">
+<h1 style="font-family:arail;color:white;"> Practise for JavaScript sessions</h1>
+</div>
+
+<div id="sepe1"><hr style = "color:red;"></div>
+
+<div id="sepe2">
+<img src="verti.jpg" width="1px" height="440px"/>
+</div>
+
+<div id="quicklinks">
+<a href="header.html">Home</a><br>
+<a href ="auction1.html">Auction 1</a><br>
+<a href ="auction2.html">Auction 2</a><br>
+<a href ="#" onclick='document.getElementById("calculator").style.display="block"'>Calculator</a><br>
+
+
+</div>
+
+<div id="notes">
+<p>
+Description
+<br><br></p>
+</div>
+
+
+<div id="calculator">
+This is calculator. To Print a table just enter Number 1.
+ <form Name='calc'">
+  Enter Number 1:<br>
+  <input type="text" id="no1" name='no1' ><br>
+  Enter Number 2:<br>
+  <input type="text" id="no2" name="no2" ><br><br>
+  <input type="button" name='Add' value="Add" onclick='operation(1)'>
+  <input type="button" name='Subtract' value="Subtract" onclick='operation(2)'>
+  <input type="button" name='Multiply' value="Multiply" onclick='operation(3)'>
+  <input type="button" name='Divide' value="Divide" onclick='operation(4)'>
+  <input type="button" name='Table' value="Table" onclick='operation(5)'>
+</form> 
+</div>
+<div id="result">
+Your result
+</div>
+
+
+
+
+</body>
+
+</html>

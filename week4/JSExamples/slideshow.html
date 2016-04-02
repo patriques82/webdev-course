@@ -1,0 +1,46 @@
+<html>
+<head>
+ <script type="text/javascript">
+   var i=1;
+
+function roll(img_name, img_src)
+   {
+   document[img_name].src = img_src;
+   animated();
+   }
+function animated()
+{
+var a=i%6;
+switch(a)
+{
+case 0:window.setTimeout("roll('sub', 'sss/0.jpg')",1500);break;
+case 1:window.setTimeout("roll('sub', 'sss/1.jpg')",1500);break;
+case 2:window.setTimeout("roll('sub', 'sss/2.jpg')",1500);break;
+case 3:window.setTimeout("roll('sub', 'sss/3.jpg')",1500);break;
+case 4:window.setTimeout("roll('sub', 'sss/4.jpg')",1500);break;
+case 5:window.setTimeout("roll('sub', 'sss/5.jpg')",1500);break;
+case 6:window.setTimeout("roll('sub', 'sss/5.jpg')",1500);break;
+}
+i++;
+if(i==6)
+{
+i=1;
+}
+
+}
+ 
+
+ </script>
+</head>
+<body onload="animated();">
+
+
+<div id="box">
+<img  style="width:30%; height:50%; src="images/slide.jpg"  name="sub" >
+
+
+</div>
+
+</body>
+<html>
+</html>
