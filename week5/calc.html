@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Week 5 - Web Calculator</title>
+    <meta charset="utf-8">
+    <meta lang="en">
+   <link rel="stylesheet" type="text/css" href="calc.css">
+   <script src="calc.js"></script>
+  </head>
+
+
+<body>
+
+  <!-- 1. Add button and output element to page -->
+
+  <!-- 1.2 -->
+  <div id="output">0</div>
+
+  <!-- 1.3 -->
+<div class="numpad">
+    <!-- 1.1 -->
+    <button class="digit">1</button>
+    <button class="digit">2</button>
+    <button class="digit">3</button>
+    <button class="digit">4</button>
+    <button class="digit">5</button>
+    <button class="digit">6</button>
+    <button class="digit">7</button>
+    <button class="digit">8</button>
+    <button class="digit">9</button>
+    <button class="digit">0</button>
+</div>
+
+
+
+ <!-- 3. Add operation keys -->
+ <div class="opkeys">
+   <button class="opkey" onclick="operation(this)">+</button>
+   <button class="opkey" onclick="operation(this)">-</button>
+   <!-- note HTML entities! http://www.w3schools.com/charsets/ref_html_symbols.asp -->
+   <button class="opkey">&times</button>
+   <button class="opkey">&divide</button>
+   <button class="opkey" onclick="equals()">=</button>
+   <button class="opkey">&plusmn</button>
+ </div>
+
+
+
+
+
+
+
+
+
+
+
+  <!-- 5. Add onclick handlers -->
+<!--   <div class="opkeys">
+    <button class="opkey">+</button>
+    <button class="opkey">-</button>
+    <!-- note HTML entities! http://www.w3schools.com/charsets/ref_html_symbols.asp -->
+<!--     <button class="opkey">&times</button>
+    <button class="opkey">&divide</button>
+    <button class="opkey">=</button>
+    <button class="opkey">&plusmn</button>
+  </div>
+ -->
+
+
+</body>
+</html>

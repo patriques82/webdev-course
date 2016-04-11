@@ -1,0 +1,76 @@
+/* 2. Add layout to page */
+/* 2.1 */
+.numpad {
+  position: absolute;
+  top: 200px;
+  left: 20%;
+  width: 30%;
+}
+
+/* 3.1 Exercise - fix layout */
+.opkeys {
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  width: 25%;
+
+  /* flex */
+}
+
+/* 2.2 */
+#output {
+  position: fixed;
+  top: 10%;
+  left: 10%;
+/*   2.3 */
+  width: 80%;
+  height: 100px;
+  border: 1px solid black;
+}
+
+/* 2.4 */
+@font-face {
+  font-family: calc;
+  src: url(resources/digital-7-mono.ttf);
+}
+
+#output {
+  margin: auto;
+  font-family: calc;
+  font-size: 2em;
+}
+
+/* 4. Styling */
+.digit {
+  width: 25%;
+  font-size: 80%;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border: 2px solid #008CBA;
+  border-radius: 15%;
+  margin: 2%;
+}
+/*
+.digit:hover {
+  width: 35%;
+  font-size: 100%;
+  cursor: pointer;
+  background-color: #008CBA;
+  color: white;
+  border: 2px solid #008CBA;
+  border-radius: 15%;
+  margin: 2%;
+} */
+
+.opkey {
+  width: 25%;
+  font-size: 75%;
+  cursor: pointer;
+  background-color: #F44336;
+  color: white;
+  border: 2px solid #F44336;
+  border-radius: 15%;
+  margin: 2%;
+}
+

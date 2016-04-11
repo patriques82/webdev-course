@@ -1,0 +1,404 @@
+Add <progress> tag
+async attribute
+
+===CSS===
+The HTML <style> element is used to define internal CSS style sheets.
+The HTML <link> element is used to define external CSS style sheets.
+
+
+---
+
+## Quiz
+
+What is HTML?
+* programming language
+* markup language
+* communication protocol
+* all of the above
+
+---
+
+## Quiz
+
+What is HTTP?
+* programming language
+* markup language
+* communication protocol
+* all of the above
+
+---
+
+## Quiz
+
+What is CSS?
+* programming language
+* stylesheet language
+* communication protocol
+* all of the above
+
+---
+
+## Quiz
+
+What is a web client?
+* computer connected to Internet
+* computer connected to a website
+* web browser
+* all of the above
+
+---
+
+## Quiz
+
+Which HTTP method is used to request a resource from the server? 
+* GET
+* POST
+* PUT
+* DELETE
+
+---
+
+## Quiz
+
+Which HTTP status means success?
+* 100
+* 200
+* 404
+
+---
+
+## Quiz
+
+HTML file consists of:
+* tags
+* elements
+* attributes
+* all of the above
+
+---
+
+## Quiz
+
+Minimal HTML document should contain:
+* <!DOCTYPE HTML ...> declaration
+* <html> element
+* <head> element
+* <title> element
+* <body> element>
+* all of the above
+
+--
+
+http://www.sitepoint.com/a-minimal-html-document/
+http://www.sitepoint.com/a-minimal-html-document-html5-edition/
+https://validator.w3.org
+
+---
+
+## Quiz
+
+The tag for HTML paragraph is:
+* <div>
+* <p>
+* <br>
+* <a>
+
+---
+
+## Quiz
+
+The tag for HTML link is:
+* <link>
+* <a>
+* <href>
+* <src>
+
+---
+
+## Quiz
+
+Which element does not require a closing tag:
+* <head>
+* <br>
+* <p>
+* all of the above
+
+---
+
+## Quiz
+
+Newlines within most HTML elements text will be:
+* displayed
+* ignored
+Multiple spaces ignored too. 
+Not in <pre> element. 
+How would we display code inside <code> element?
+
+---
+
+## Quiz
+
+It is a good practise to use <b>, <i>, and <strike> elements for text formatting:
+* yes
+* no
+Use semantic elements instead
+
+---
+
+## Quiz
+
+Block-level HTML elements include:
+* <div>
+* <h1> - <h6>
+* <p>
+* <form>
+* all of the above
+
+---
+
+## Quiz
+
+Inline HTML elements include:
+* <span>
+* <a>
+* <img>
+* <strong>
+* all of the above
+
+---
+
+## Quiz
+
+A responsive web page:
+* responds to user input
+* adjusts its look depending on screen size
+* both
+
+---
+
+## Quiz
+
+What is DOM?
+
+---
+
+## Quiz
+
+CSS code can be placed in:
+* inline style attributes
+* <style> element
+* external CSS file
+* all of the above
+
+---
+
+## Quiz
+
+It is good practise to put styling information both in HTML and CSS file:
+* yes
+* no 
+
+---
+
+## Quiz
+
+CSS selectors are used to select HTML elements by their:
+* tag
+* id
+* class
+* all of the above
+
+---
+
+## Quiz
+
+Valid CSS selectors include: 
+* .clouds, div { ... } 
+* div .clouds { ... } 
+* div > .clouds ( ... } 
+* div + .clouds { ... }
+* * { ... }
+* all of the above
+
+---
+
+## Quiz
+
+Text inside <em> element will be displayed in italic:
+* always
+* based on browser defaults
+* based on CSS information
+
+---
+
+## Quiz
+
+CSS box model defines:
+* element width and height +
+* width of element borders +
+* space around element + margin
+* space around element content + padding
+* all of the above
+
+---
+
+## Quiz
+
+Consider CSS:
+```CSS
+border-width: 1px;
+border-style: solid;
+border-color: #000;
+```
+Is it possible to specify this style using one property?
+* yes
+* no
+border: 1px solid #000;
+
+---
+
+## Quiz
+
+What will individual margins (bottom, left, right, top) be in this example:
+margin: 25px 50px 75px 100px; ?
+Tip: reverse alphabetic order!
+Also:
+- margin: 25px 50px 75px; T RL B
+- margin: 25px 50px; TB RL
+- margin: 25px; ALL
+Same for padding.
+Check other CSS shorthand properties (e.g. font, border).
+
+---
+
+## Quiz
+
+Text and text direction by language
+div.en { direction: ltr; }
+div.ar { direction: rtl; }
+
+---
+
+## Quiz
+
+Recommended unit for font-size property is:
+* pixel
+* em
+* both
+
+---
+
+## Quiz
+
+Which is the larger font-size:
+* 16px
+* 1em
+* they are equal
+
+---
+
+## Quiz
+
+Which property is used to make text italic:
+* font-style
+* font-weight
+* font-variant
+
+---
+
+## Quiz
+
+Which property is used to make text bold:
+* font-style
+* font-weight
+* font-variant 
+
+---
+
+## Quiz
+
+Can page elements be hidden using CSS?
+* yes
+* no
+
+---
+
+## Quiz
+
+What is difference between display:none and visibility:hidden?
+
+---
+
+## Quiz
+
+Will the following CSS:
+position: static:
+top: 50px;
+change position of an element?
+* yes
+* no
+
+---
+
+## Quiz
+
+For an element within <body>, how will CSS:
+position: absolute;
+top: 10px;
+affect its position? 
+
+---
+
+## Quiz
+ 	
+Which selector will change style of elements with id 'paragraph'?
+* paragraph {...};
+* .paragraph {...};
+* #paragraph {...};
+
+---
+
+## Quiz
+
+Which selector will change style of all elements with class 'some class' 
+located inside <div> elements?
+* div > .someclass {...};
+* div + .someclass {...};
+* div ~ .someclass {...};
+
+---
+
+## Quiz
+
+Which selector will change style of all elements with class 'some class' 
+located next to <div> elements?
+* div > .someclass {...};
+* div + .someclass {...};
+* div ~ .someclass {...};
+
+---
+
+## Quiz
+
+In HTML5, it's necessary to specify the type of a script file/fragment, 
+e.g. <script type="text/javascript">...</script>:
+* yes
+* no
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
